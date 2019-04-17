@@ -1,48 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Accordion Component only opens one section at a time 1`] = `
-<ul
-  className="Accordion"
->
-  <li
-    className="Accordion__item"
-    key="0"
-  >
-    <button
-      onClick={[Function]}
-      type="button"
-    >
-      Section 1
-    </button>
-  </li>
-  <li
-    className="Accordion__item"
-    key="1"
-  >
-    <button
-      onClick={[Function]}
-      type="button"
-    >
-      Section 2
-    </button>
-  </li>
-  <li
-    className="Accordion__item"
-    key="2"
-  >
-    <button
-      onClick={[Function]}
-      type="button"
-    >
-      Section 3
-    </button>
-    <p>
-      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
-    </p>
-  </li>
-</ul>
-`;
-
 exports[`Accordion Component opens any clicked section 1`] = `
 <ul
   className="Accordion"
@@ -82,6 +39,49 @@ exports[`Accordion Component opens any clicked section 1`] = `
     >
       Section 3
     </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component opens only last clicked 1`] = `
+<ul
+  className="Accordion"
+>
+  <li
+    className="Accordion__item"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="Accordion__item"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="Accordion__item"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+    <p>
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+    </p>
   </li>
 </ul>
 `;
